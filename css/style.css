@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .header1{
    
     position:fixed;
@@ -59,7 +62,7 @@
 /*sesion2*/
 .sesion2{
     margin-top:70px;
-    background:rgb(185, 222, 236);
+   
 }
 #sesion2__articulo1-hr{
     outline:1px solid black;
@@ -104,4 +107,67 @@
     margin:auto;
     margin-bottom:30px;
 
+}
+
+
+
+
+/*sesion3*/
+.sesion3{
+    margin-top:50px;
+    padding:0px 10px;
+}
+#sesion_hr{
+    outline:1px solid black;
+    width:40px;
+    margin:auto;
+    margin-bottom:30px;
+}
+#form{
+ 
+    width:260px;
+    margin-left:2px;
+    
+    
+}
+#input1, #input2, #input3, #input4{
+    width:250px;
+    margin-top:10px;
+}
+#textarea{
+    width:250px;
+    resize:none;
+    margin-top:10px;
+    height:100px;
+}
+
+
+
+/*footer*/
+footer{
+    height:130px;
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    box-sizing:border-box;
+    overflow-x:hidden;
+}
+
+.footer__content h2{
+
+    
+    animation-name:h2;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-timing-function:ease-in;
+}
+@keyframes h2{
+    0%{
+        transform:scale(1.1);
+    }
+}
+body{
+    overflow-x:hidden;
 }
