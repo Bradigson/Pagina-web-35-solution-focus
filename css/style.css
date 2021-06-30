@@ -1,0 +1,107 @@
+.header1{
+   
+    position:fixed;
+    width:100%;
+    height:60px;
+  
+    z-index:100;
+}
+#header1__nav{
+    background:rgba(0,0,0);
+  
+    height:55px;
+}
+#header__nav-button{
+    margin-left:20px;
+    border:none;
+    box-shadow:unset;
+    height:100%;
+}
+.fa-ellipsis-h{
+    color:#fff;
+    font-size:30px;
+}
+#menu{
+    margin-top:8px;
+}
+#menu ul{
+   background:rgba(0,0,0,.3);
+   backdrop-filter:blur(15px);
+    height:598px;
+}
+#menu ul li > a{
+    margin-top:40px;
+    color:#fff;
+}
+
+
+/*sesion1*/
+.sesion1{
+    position:relative;
+    height:653px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-shadow:1px 1px 2px rgba(0,0,0,.6);
+    background:linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,.0)), url(../imgs/anna-zloch-KohZ0T9zQQ0-unsplash.jpg);
+    background-position:center;
+    background-size:cover;
+}
+
+#sesion1__content h2{
+    font-size:30px;
+}
+#sesion1__content h3{
+    font-size:23px;
+}
+
+
+/*sesion2*/
+.sesion2{
+    margin-top:70px;
+    background:rgb(185, 222, 236);
+}
+#sesion2__articulo1-hr{
+    outline:1px solid black;
+    width:40px;
+    margin:auto;
+    margin-bottom:30px;
+    
+   
+}
+.sesion2__articulo1{
+    padding:0px 10px;
+}
+.sesion2__article1-img{
+   
+    height:170px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.img1{
+    
+    width:240px;
+    height:150px;
+}
+.img1 > img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+
+/*articulo2*/
+
+.sesion2__articulo2{
+    margin-top:60px;
+    padding:0px 10px;
+}
+#articlu2-hr{
+    outline:1px solid black;
+    width:60px;
+    margin:auto;
+    margin-bottom:30px;
+
+}
